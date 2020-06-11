@@ -22,13 +22,14 @@ class SearchBar extends React.Component {
             onSubmit={this.onFormSubmit}>
                 <div className="field" style={{paddingTop:'40px'}}>
                 <label>
-                    <span style={{fontSize:'50px', backgroundColor:'red'}}>FRED</span> 
+                    <span style={{fontSize:'50px'}}>YOU</span> 
                     <span style={{fontSize:'50px'}}>TUBE</span></label>
                 <input type="text" 
                 value={this.state.term} 
                 onChange={this.onInputChange}
                 style={{border:'2px solid black'}}/>
-                <button onClick={this.onFormSubmit}>Search</button>
+                <button style={{fontSize:'20px', cursor:'pointer',padding:'20px', borderRadius:'1.5rem', backgroundColor:'red'}}
+                 onClick={this.onFormSubmit}>Search</button>
                 </div>
             </form>
         </div>
