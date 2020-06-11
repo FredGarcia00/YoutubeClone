@@ -4,7 +4,8 @@ import Youtube from '../apis/Youtube';
 import VideoList from '../components/VideoList';
 import VideoDetail from './VideoDetail';
 
-const KEY = 'AIzaSyB_ZZR8ho1bO1owyp5CtzbDn8BSwsRLDA0';
+// const KEY = 'AIzaSyB_ZZR8ho1bO1owyp5CtzbDn8BSwsRLDA0';
+const KEY = 'AIzaSyAD1r3669Nonbb6ftx_Ke7QYdQ0001GdyU';
 
 
 
